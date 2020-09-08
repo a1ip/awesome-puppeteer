@@ -3,7 +3,7 @@
 > A curated list of awesome [puppeteer](https://developers.google.com/web/tools/puppeteer/) resources for controlling [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) Chrome (or Chromium) over the [DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/).
 
 <p align="center">
-  <img width="200" src="https://cdn.rawgit.com/transitive-bullshit/awesome-puppeteer/master/logo.png">
+  <img src="https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png" alt="Puppeteer Logo" width="200" />
 </p>
 
 - [![china](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **中文/Chinese**](https://github.com/transitive-bullshit/awesome-puppeteer/blob/master/readme.zh.md)
@@ -18,6 +18,7 @@
 - [Services](#services)
 - [Examples](#examples)
 - [Articles](#articles)
+- [Guides](#guides)
 - [Related](#related)
 
 
@@ -42,7 +43,7 @@
 - [puppeteer-instagram-cli](https://github.com/transitive-bullshit/puppeteer-instagram-cli) - CLI for Instagram automation driven by headless chrome.
 - [puppeteer-github](https://github.com/transitive-bullshit/puppeteer-github) - GitHub automation driven by headless chrome.
 - [puppeteer-github-cli](https://github.com/transitive-bullshit/puppeteer-github-cli) - CLI for GitHub automation driven by headless chrome.
-- [puppeteer-social-image](https://github.com/puppeteer/puppeteer-social-image) - Render social share images using HTML + CSS.
+- [puppeteer-social-image](https://github.com/chrisvxd/puppeteer-social-image) - Render social share images using HTML + CSS.
 - [docker-puppeteer](https://github.com/alekzonder/docker-puppeteer) - Docker image with puppeteer installed.
 - [puppeteer-explore](https://github.com/laispace/puppeteer-explore) - Utility library for puppeteer.
 - [differencify](https://github.com/NimaSoroush/differencify) - Library for visual regression testing.
@@ -76,7 +77,7 @@
 - [webgif](https://github.com/anishkny/webgif) - Easily generate animated GIFs from websites.
 - [whatspup](https://github.com/sarfraznawaz2005/whatspup) - WhatsApp chat from commandline/console/cli.
 - [Wbot](https://github.com/vasani-arpit/WBOT) - Configurable Whatsapp auto reply bot.
-
+- [BrowserGap](https://github.com/dosyago/BrowserGap) - Remote browser webview powered by Headless Chrome.
 
 ## Testing
 
@@ -101,11 +102,13 @@
 - [FusionExport](https://www.fusioncharts.com/fusionexport) - Export dashboards or charts to PDF or images. Looks mature.
 - [ProxyCrawl](https://proxycrawl.com) - Headless Chrome as a service.
 - [microlink.io](https://microlink.io) – Turns any site into data.
+- [HeadlessTesting](https://headlesstesting.com) – Headless Chrome testing with Puppeteer in the Cloud.
+- [FloodRunner](https://floodrunner.dev) - Open-source monitoring solution using puppeteer tests
 
 
 ## Examples
 
-- [Official examples](https://github.com/GoogleChrome/puppeteer/tree/master/examples/) - Quality examples as part of the official puppeteer repo.
+- [Official examples](https://github.com/puppeteer/puppeteer/tree/main/examples) - Quality examples as part of the official puppeteer repo.
 - [Official use case-driven examples](https://github.com/GoogleChromeLabs/puppeteer-examples) - More complex, high quality, use case-driven examples.
 - [puppeteer-examples](https://github.com/checkly/puppeteer-examples) - Quality examples for real life use cases such as scraping web pages and common login scenarios.
 - [puppeteer-samples](https://github.com/sweekson/puppeteer-samples) - Misc examples.
@@ -124,11 +127,15 @@
 - [What's the difference between Chromium and Chrome?](https://www.howtogeek.com/202825/what%E2%80%99s-the-difference-between-chromium-and-chrome/)
 - [NodeJs Scraping with Puppeteer](https://learnscraping.com/nodejs-web-scraping-with-puppeteer/) - IMDB Scraping example.
 
+## Guides
+
+- [theheadless.dev](https://theheadless.dev) - Practical guides and runnable examples on Puppeteer (and Playwright).
+
 ## Related
 
 - [puppeteer-sharp](https://github.com/kblok/puppeteer-sharp) - Port of Puppeteer to .NET.
 - [foxr](https://github.com/deepsweet/foxr) - Node.js API to control Firefox. 🦊
-- [pyppeteer](https://github.com/miyakogi/pyppeteer) - Unofficial Python port of Puppeteer.
+- [pyppeteer](https://github.com/pyppeteer/pyppeteer) - Unofficial Python port of Puppeteer.
 - [capybara-chrome](https://github.com/carezone/capybara-chrome) – Unofficial Ruby port of Puppeteer.
 
 
@@ -142,3 +149,5 @@ Contributions welcome! Please read the [contributing guideline](contributing.md)
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, [Travis Fischer](https://github.com/transitive-bullshit) has waived all copyright and related or neighboring rights to this work.
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
